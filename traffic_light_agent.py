@@ -1,10 +1,10 @@
 
-table = { "Red": "Stop", "Yellow": "Slow Down","Green": "Go"}
+table = { "Red": "Stop", "Yellow": "Slow Down","Green": "Go","Flashing Red": "Stop and Proceed with Caution" }
 
 def traffic_light_agent(percept):
     return table[percept]
 
-percept_sequence = ["Red", "Green", "Yellow", "Red"]
+percept_sequence = ["Red", "Green", "Yellow", "Flashing Red"]
 
 print("Percept\t\tAction")
 
